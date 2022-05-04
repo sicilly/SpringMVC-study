@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springmvc-01-servlet</module>
-        <module>spring-02-hellomvc</module>
+        <module>springmvc-02-hellomvc</module>
     </modules>
 
     <properties>
