@@ -9,20 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5498961a-07f0-445c-bf0e-17dd10f7eecc" name="Changes" comment="使用注解开发">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_04_controller_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/springmvc-04-controller.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/controller/ControllerTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/controller/ControllerTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/controller/ControllerTest3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/resources/springmvc-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/web/WEB-INF/jsp/test.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_study_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_study_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="5498961a-07f0-445c-bf0e-17dd10f7eecc" name="Changes" comment="控制器controller">
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/controller/RestFulController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/web/a.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -97,6 +87,7 @@
       <recent name="E:\java\SpringMVC-study\springmvc-04-controller\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java\SpringMVC-study\springmvc-04-controller\web" />
       <recent name="D:\code\SpringMVC-study\spring-02-hellomvc\web\WEB-INF" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -214,7 +205,7 @@
       <workItem from="1651675910823" duration="8890000" />
       <workItem from="1651745693313" duration="3396000" />
       <workItem from="1651832192008" duration="4646000" />
-      <workItem from="1651887840505" duration="1795000" />
+      <workItem from="1651887840505" duration="6223000" />
     </task>
     <task id="LOCAL-00001" summary="hellomvc">
       <created>1651686064553</created>
@@ -237,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651837490245</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="控制器controller">
+      <created>1651890852011</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1651890852011</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,7 +257,8 @@
     <MESSAGE value="hellomvc" />
     <MESSAGE value="换成java8" />
     <MESSAGE value="使用注解开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="使用注解开发" />
+    <MESSAGE value="控制器controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="控制器controller" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
