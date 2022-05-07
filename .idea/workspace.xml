@@ -2,24 +2,27 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="springmvc-03-annotation:war exploded" />
+      <artifact name="springmvc-04-controller:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5498961a-07f0-445c-bf0e-17dd10f7eecc" name="Changes" comment="换成java8">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_03_annotation_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-03-annotation/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-03-annotation/src/main/java/com/kuang/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-03-annotation/src/main/resources/springmvc-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-03-annotation/web/WEB-INF/jsp/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-03-annotation/web/WEB-INF/web.xml" afterDir="false" />
+    <list default="true" id="5498961a-07f0-445c-bf0e-17dd10f7eecc" name="Changes" comment="使用注解开发">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_04_controller_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/springmvc-04-controller.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/controller/ControllerTest1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/controller/ControllerTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/controller/ControllerTest3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/resources/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/web/WEB-INF/jsp/test.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_study_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/SpringMVC_study_war_exploded.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-02-hellomvc/springmvc-02-hellomvc.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-03-annotation/springmvc-03-annotation.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +42,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -74,7 +85,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springmvc-02-hellomvc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springmvc-04-controller/src/main/resources" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
@@ -82,20 +93,24 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\SpringMVC-study\springmvc-04-controller\src\main\resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\SpringMVC-study\spring-02-hellomvc\web\WEB-INF" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.kuang.controller" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,7 +118,7 @@
     <configuration name="Tomcat 9.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="springmvc-03-annotation:war exploded">
+        <artifact name="springmvc-04-controller:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -183,7 +198,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="springmvc-03-annotation:war exploded" />
+          <artifact name="springmvc-04-controller:war exploded" />
         </option>
       </method>
     </configuration>
@@ -198,7 +213,8 @@
       <updated>1651675909811</updated>
       <workItem from="1651675910823" duration="8890000" />
       <workItem from="1651745693313" duration="3396000" />
-      <workItem from="1651832192008" duration="3922000" />
+      <workItem from="1651832192008" duration="4646000" />
+      <workItem from="1651887840505" duration="1795000" />
     </task>
     <task id="LOCAL-00001" summary="hellomvc">
       <created>1651686064553</created>
@@ -214,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651833883642</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="使用注解开发">
+      <created>1651837490245</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651837490245</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,7 +258,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hellomvc" />
     <MESSAGE value="换成java8" />
-    <option name="LAST_COMMIT_MESSAGE" value="换成java8" />
+    <MESSAGE value="使用注解开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用注解开发" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
