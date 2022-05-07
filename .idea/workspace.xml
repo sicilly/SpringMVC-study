@@ -9,10 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5498961a-07f0-445c-bf0e-17dd10f7eecc" name="Changes" comment="控制器controller">
-      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/controller/RestFulController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/web/a.jsp" afterDir="false" />
+    <list default="true" id="5498961a-07f0-445c-bf0e-17dd10f7eecc" name="Changes" comment="RestFul">
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/controller/ModelTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc-04-controller/src/main/resources/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/resources/springmvc-servlet.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -205,7 +205,7 @@
       <workItem from="1651675910823" duration="8890000" />
       <workItem from="1651745693313" duration="3396000" />
       <workItem from="1651832192008" duration="4646000" />
-      <workItem from="1651887840505" duration="6223000" />
+      <workItem from="1651887840505" duration="8996000" />
     </task>
     <task id="LOCAL-00001" summary="hellomvc">
       <created>1651686064553</created>
@@ -235,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651890852011</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="RestFul">
+      <created>1651901441889</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1651901441889</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +265,8 @@
     <MESSAGE value="换成java8" />
     <MESSAGE value="使用注解开发" />
     <MESSAGE value="控制器controller" />
-    <option name="LAST_COMMIT_MESSAGE" value="控制器controller" />
+    <MESSAGE value="RestFul" />
+    <option name="LAST_COMMIT_MESSAGE" value="RestFul" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

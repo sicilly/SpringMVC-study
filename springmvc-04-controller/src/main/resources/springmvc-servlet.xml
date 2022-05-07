@@ -13,13 +13,13 @@
     <!-- 自动扫描指定的包，下面所有注解类交给IOC容器管理 -->
     <context:component-scan base-package="com.kuang.controller"/>
     <!-- 视图解析器 -->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"
-          id="internalResourceViewResolver">
-        <!-- 前缀 -->
-        <property name="prefix" value="/WEB-INF/jsp/" />
-        <!-- 后缀 -->
-        <property name="suffix" value=".jsp" />
-    </bean>
+<!--    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"-->
+<!--          id="internalResourceViewResolver">-->
+<!--        &lt;!&ndash; 前缀 &ndash;&gt;-->
+<!--        <property name="prefix" value="/WEB-INF/jsp/" />-->
+<!--        &lt;!&ndash; 后缀 &ndash;&gt;-->
+<!--        <property name="suffix" value=".jsp" />-->
+<!--    </bean>-->
     <!--注册请求的bean；name对应请求路径，class对应处理请求的类-->
     <bean name="/t1" class="com.kuang.controller.ControllerTest1"/>
 </beans>
