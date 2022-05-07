@@ -9,9 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5498961a-07f0-445c-bf0e-17dd10f7eecc" name="Changes" comment="RestFul">
-      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/controller/ModelTest1.java" afterDir="false" />
+    <list default="true" id="5498961a-07f0-445c-bf0e-17dd10f7eecc" name="Changes" comment="结果跳转处理">
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc-04-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-04-controller/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springmvc-04-controller/src/main/resources/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/resources/springmvc-servlet.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,9 +57,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\software\java\maven\apache-maven-3.6.1\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../software/java/maven/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\software\java\maven\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="localRepository" value="E:\maven\repository" />
+        <option name="mavenHome" value="D:/software/apache-maven-3.8.1-bin/apache-maven-3.8.1" />
+        <option name="userSettingsFile" value="D:\software\apache-maven-3.8.1-bin\apache-maven-3.8.1\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -80,7 +83,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.23135275" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -205,7 +208,7 @@
       <workItem from="1651675910823" duration="8890000" />
       <workItem from="1651745693313" duration="3396000" />
       <workItem from="1651832192008" duration="4646000" />
-      <workItem from="1651887840505" duration="8996000" />
+      <workItem from="1651887840505" duration="13114000" />
     </task>
     <task id="LOCAL-00001" summary="hellomvc">
       <created>1651686064553</created>
@@ -242,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651901441889</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="结果跳转处理">
+      <created>1651930415508</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1651930415508</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +276,8 @@
     <MESSAGE value="使用注解开发" />
     <MESSAGE value="控制器controller" />
     <MESSAGE value="RestFul" />
-    <option name="LAST_COMMIT_MESSAGE" value="RestFul" />
+    <MESSAGE value="结果跳转处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="结果跳转处理" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
