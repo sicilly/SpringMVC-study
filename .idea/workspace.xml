@@ -9,13 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5498961a-07f0-445c-bf0e-17dd10f7eecc" name="Changes" comment="结果跳转处理">
-      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="5498961a-07f0-445c-bf0e-17dd10f7eecc" name="Changes" comment="数据处理">
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/java/com/kuang/controller/EncodingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-04-controller/web/form.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-04-controller/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-04-controller/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springmvc-04-controller/src/main/resources/springmvc-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-04-controller/src/main/resources/springmvc-servlet.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc-04-controller/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc-04-controller/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +81,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.23135275" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -98,13 +96,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,7 +208,8 @@
       <workItem from="1651675910823" duration="8890000" />
       <workItem from="1651745693313" duration="3396000" />
       <workItem from="1651832192008" duration="4646000" />
-      <workItem from="1651887840505" duration="13114000" />
+      <workItem from="1651887840505" duration="13698000" />
+      <workItem from="1652495668487" duration="3816000" />
     </task>
     <task id="LOCAL-00001" summary="hellomvc">
       <created>1651686064553</created>
@@ -252,7 +253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651930415508</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="数据处理">
+      <created>1651935320167</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1651935320167</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +285,8 @@
     <MESSAGE value="控制器controller" />
     <MESSAGE value="RestFul" />
     <MESSAGE value="结果跳转处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="结果跳转处理" />
+    <MESSAGE value="数据处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据处理" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
