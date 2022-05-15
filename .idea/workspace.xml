@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="springmvc-05-json:war exploded" />
+      <artifact name="springmvc-06-ajax:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5498961a-07f0-445c-bf0e-17dd10f7eecc" name="Changes" comment="解决乱码问题">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_05_json_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-05-json/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-05-json/springmvc-05-json.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-05-json/src/main/java/com/kuang/controller/FastJsonDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-05-json/src/main/java/com/kuang/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-05-json/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-05-json/src/main/java/com/kuang/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-05-json/src/main/resources/springmvc-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-05-json/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springmvc-05-json/web/jsontest.html" afterDir="false" />
+    <list default="true" id="5498961a-07f0-445c-bf0e-17dd10f7eecc" name="Changes" comment="jackjson和fastjson">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/springmvc_06_ajax_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-06-ajax/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-06-ajax/springmvc-06-ajax.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-06-ajax/src/main/java/com/kuang/controller/AjaxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-06-ajax/src/main/java/com/kuang/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-06-ajax/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-06-ajax/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-06-ajax/web/index2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvc-06-ajax/web/login.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -35,9 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -99,6 +98,7 @@
       <recent name="E:\java\SpringMVC-study\springmvc-04-controller\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\java\SpringMVC-study\springmvc-06-ajax\web" />
       <recent name="E:\java\SpringMVC-study\springmvc-04-controller\web" />
       <recent name="D:\code\SpringMVC-study\spring-02-hellomvc\web\WEB-INF" />
     </key>
@@ -120,15 +120,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -136,7 +134,7 @@
     <configuration name="Tomcat 9.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="springmvc-05-json:war exploded">
+        <artifact name="springmvc-06-ajax:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -216,13 +214,13 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="springmvc-05-json:war exploded" />
+          <artifact name="springmvc-06-ajax:war exploded" />
         </option>
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Tomcat 9.0.52" />
       <item itemvalue="Application.FastJsonDemo" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.52" />
     </list>
     <recent_temporary>
       <list>
@@ -242,7 +240,8 @@
       <workItem from="1651745693313" duration="3396000" />
       <workItem from="1651832192008" duration="4646000" />
       <workItem from="1651887840505" duration="13698000" />
-      <workItem from="1652495668487" duration="9952000" />
+      <workItem from="1652495668487" duration="11362000" />
+      <workItem from="1652612216023" duration="4369000" />
     </task>
     <task id="LOCAL-00001" summary="hellomvc">
       <created>1651686064553</created>
@@ -300,7 +299,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652500686970</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="jackjson和fastjson">
+      <created>1652511607855</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652511607855</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,7 +333,8 @@
     <MESSAGE value="结果跳转处理" />
     <MESSAGE value="数据处理" />
     <MESSAGE value="解决乱码问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="解决乱码问题" />
+    <MESSAGE value="jackjson和fastjson" />
+    <option name="LAST_COMMIT_MESSAGE" value="jackjson和fastjson" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
